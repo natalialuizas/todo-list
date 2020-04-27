@@ -1,6 +1,6 @@
  # Projeto 2 da {reprograma} - Módulo 2, JavaScript II
 
- Foi desenvolvido em parceria com @
+ Foi desenvolvido em parceria com @carolaraujo 
 
  ### Requisitos
  ```
