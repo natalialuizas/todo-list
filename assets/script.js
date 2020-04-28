@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', function () {
 const form = document.querySelector('form');
+const botaoCheck = document.querySelector('#todoMarcarTodos');
 
 form.addEventListener('submit', function(e){
     e.preventDefault()
@@ -25,7 +26,15 @@ function addTarefa(input){
     tarefa.appendChild(paragrafo);
     tarefa.appendChild(span);
     listasTarefas.appendChild(tarefa);
-    
-}
 
+    paragrafo.addEventListener('click', function(){
+        paragrafo.classList.add('checked')
+    })
+    span.addEventListener('click', function(){
+    tarefa.remove()
+    })
+} 
+    botaoCheck.addEventListener('click', function(){
+        const itens = document.querySelectorAll('p');
+    })
 })
