@@ -93,3 +93,10 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 } 
+
+.todo__btn-excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}

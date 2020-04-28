@@ -10,11 +10,11 @@
  ```
  
  ### Funcionalidades
-- [ ] Adicionar itens na lista
+- [x] Adicionar itens na lista
 - [ ] Marcar itens concluídos individualmente
 - [ ] Excluir itens individualmente
 - [x] Validar campo de texto para não entrar itens vazios
-- [ ] Limpar campo de texto depois que insere o item na lista
+- [x] Limpar campo de texto depois que insere o item na lista
 
  #### BÔNUS
 - [ ] Marcar todos os itens como feito
