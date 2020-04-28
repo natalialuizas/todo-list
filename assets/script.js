@@ -30,7 +30,7 @@ function addTarefa(input){
     listasTarefas.appendChild(tarefa);
 
     paragrafo.addEventListener('click', function(){
-        paragrafo.classList.add('checked')
+        paragrafo.classList.toggle('checked')
     })
     span.addEventListener('click', function(){
     tarefa.remove()
@@ -39,7 +39,7 @@ function addTarefa(input){
     botaoCheck.addEventListener('click', function(){
         const itens = document.querySelectorAll('p');
         itens.forEach(function(itens){
-            itens.classList.add('checked')
+            itens.classList.toggle('checked')
         })
 
         // for(let i = 0; i < itens.length; i++){
@@ -49,7 +49,7 @@ function addTarefa(input){
         botaoLimpar.addEventListener('click', function(){
             const itens = document.querySelectorAll('li');
             itens.forEach(function(itens){
-                itens.remove()
+                itens.remove();
             })
 
             // for(let i = 0; i < itens.length; i++){
