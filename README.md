@@ -17,6 +17,6 @@
 - [x] Limpar campo de texto depois que insere o item na lista
 
  #### BÔNUS
-- [ ] Marcar todos os itens como feito
-- [ ] Excluir todos os itens da lista
+- [x] Marcar todos os itens como feito
+- [x] Excluir todos os itens da lista
 - [ ] Reorganizar a ordem "arrastando" os cards utilizando drag and drop
