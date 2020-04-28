@@ -11,8 +11,8 @@
  
  ### Funcionalidades
 - [x] Adicionar itens na lista
-- [ ] Marcar itens concluídos individualmente
-- [ ] Excluir itens individualmente
+- [x] Marcar itens concluídos individualmente
+- [x] Excluir itens individualmente
 - [x] Validar campo de texto para não entrar itens vazios
 - [x] Limpar campo de texto depois que insere o item na lista
 
