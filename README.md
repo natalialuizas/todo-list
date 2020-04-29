@@ -19,4 +19,4 @@
  #### BÔNUS
 - [x] Marcar todos os itens como feito
 - [x] Excluir todos os itens da lista
-- [ ] Reorganizar a ordem "arrastando" os cards utilizando drag and drop
+- [x] Reorganizar a ordem "arrastando" os cards utilizando drag and drop
