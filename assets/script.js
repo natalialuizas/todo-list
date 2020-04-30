@@ -49,9 +49,10 @@ window.addEventListener('DOMContentLoaded', function () {
     })
     botaoLimpar.addEventListener('click', function () {
         const itens = document.querySelectorAll('li');
-        itens.forEach(function (itens) {
-            itens.remove();
-        })
+       listasTarefas.removeChild(itens)
+       // itens.forEach(function (itens) {
+       //     itens.remove();
+       // })
 
     })
 
