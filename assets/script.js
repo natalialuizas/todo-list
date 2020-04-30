@@ -17,7 +17,6 @@ window.addEventListener('DOMContentLoaded', function () {
     })
 
     function addTarefa(input) {
-
         const tarefa = document.createElement('li');
         const paragrafo = document.createElement('p');
         const span = document.createElement('span');
@@ -45,11 +44,10 @@ window.addEventListener('DOMContentLoaded', function () {
         itens.forEach(function (itens) {
             itens.classList.toggle('checked')
         })
-
     })
+    
     botaoLimpar.addEventListener('click', function () {
         const itens = document.querySelectorAll('li');
-      
         itens.forEach(function (itens) {
             itens.remove();
         })
