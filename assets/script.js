@@ -38,8 +38,8 @@ window.addEventListener('DOMContentLoaded', function () {
         span.addEventListener('click', function () {
             tarefa.remove()
         })
-
     }
+    
     botaoCheck.addEventListener('click', function () {
         const itens = document.querySelectorAll('p');
         itens.forEach(function (itens) {
@@ -53,7 +53,6 @@ window.addEventListener('DOMContentLoaded', function () {
         itens.forEach(function (itens) {
             itens.remove();
         })
-
     })
 
     listasTarefas.addEventListener('dragstart', function(e){
@@ -66,14 +65,10 @@ window.addEventListener('DOMContentLoaded', function () {
         this.style.opacity = "1"
         this.style.cursor = "move"
         this.insertBefore(dragging, node);
-        
     })
 
     listasTarefas.addEventListener('dragend', function(e){
         dragging = null;
     })
-
-    
-
 })
 //acabou amém !
